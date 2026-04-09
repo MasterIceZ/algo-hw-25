@@ -12,8 +12,7 @@ int main(int argc, char *argv[]) {
 			std::cin >> b[i][j];
 		}
 	}
-	int m;
-	std::cin >> m;
+	int m = n - 2;
 	std::vector<std::vector<int>> e(m, std::vector<int> (m));
 	for(int i=0; i<m; ++i) {
 		for(int j=0; j<m; ++j) {
